@@ -13,7 +13,7 @@ from tqdm import tqdm, trange
 from natsort import natsorted
 from run_nerf_helpers_deform import *
 
-
+# 导入必要的库
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 np.random.seed(0)
 DEBUG = False
